@@ -1,0 +1,2 @@
+FROM jboss/wildfly
+ADD target/dockerService.war /opt/jboss/wildfly/standalone/deployments
